@@ -2,7 +2,7 @@ package hw3;
 
 import java.util.Scanner;
 
-public class triangleKoordinate {
+public class triangleCoordinate {
     public static void main(String[] args) {
 
 
