@@ -14,6 +14,6 @@ public class MyOddNuber {
             }
         }
         System.out.println("]");
-        System.out.print("This arry  has " + myOdd + " odd numbers");
+        System.out.print("This array  has " + myOdd + " odd numbers");
     }
 }

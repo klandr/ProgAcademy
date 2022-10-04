@@ -10,7 +10,7 @@ public class RandomArray {
         int[] myArray;
         int[] createArray;
         Scanner scanner = new Scanner(System.in);
-        System.out.println("I can create random array with numbers fron 0 to " + randomNumber);
+        System.out.println("I can create random array with numbers from 0 to " + randomNumber);
         System.out.println("Enter length of array");
         myArray = new int[scanner.nextInt()];
 
