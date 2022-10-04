@@ -29,10 +29,6 @@ public class countEntrance {
         } else if (numberApp<=180){
             System.out.println("Entrance number 5");
         }else System.out.println("Number of apartment isn't in this house");
-////1- 36,
-//2- 72,
-//3- 108,
-//4- 144,
-//5- 180
+
     }
 }
