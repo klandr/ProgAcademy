@@ -1,4 +1,4 @@
-package chatBot.hw2;
+package hw2;
 
 import java.time.Year;
 import java.util.Scanner;
