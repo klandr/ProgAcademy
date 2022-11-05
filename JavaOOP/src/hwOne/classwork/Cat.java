@@ -1,4 +1,4 @@
-package classwork;
+package hwOne.classwork;
 
 public class Cat {
     String name;
