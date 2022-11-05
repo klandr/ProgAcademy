@@ -40,7 +40,7 @@ public class Triangle {
         this.sideC = sideC;
     }
 
-    public double AreaOfTriangle() {
+    public double areaOfTriangle() {
         double heronS;
         double area;
         heronS = (sideA + sideB + sideC) / 2;

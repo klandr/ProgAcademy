@@ -12,12 +12,12 @@ public class TriangleMain {
         System.out.print("We have");
         System.out.println(triangle1);
         System.out.print("Area of triangle = ");
-        System.out.println(triangle1.AreaOfTriangle());
+        System.out.println(triangle1.areaOfTriangle());
 
         System.out.print("We have");
         System.out.println(triangle2);
         System.out.print("Area of triangle = ");
-        System.out.println(triangle2.AreaOfTriangle());
+        System.out.println(triangle2.areaOfTriangle());
 
     }
 }
