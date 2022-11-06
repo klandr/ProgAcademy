@@ -1,4 +1,4 @@
-package hwsix;
+package hwSix;
 
 import java.util.Scanner;
 

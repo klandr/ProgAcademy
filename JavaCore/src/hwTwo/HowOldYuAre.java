@@ -1,4 +1,4 @@
-package hw2;
+package hwTwo;
 
 import java.time.Year;
 import java.util.Scanner;

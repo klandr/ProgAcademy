@@ -1,4 +1,4 @@
-package hw4;
+package hwFour;
 
 public class MultipleTable {
     public static void main(String[] args) {

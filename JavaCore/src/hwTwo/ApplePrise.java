@@ -1,4 +1,4 @@
-package hw2;
+package hwTwo;
 
 public class ApplePrise {
     public static void main(String[] args) {

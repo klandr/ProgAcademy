@@ -1,4 +1,4 @@
-package hw2;
+package hwTwo;
 
 import static java.lang.Math.sqrt;
 

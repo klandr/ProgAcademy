@@ -1,4 +1,4 @@
-package hwfive;
+package hwFive;
 
 public class MyOddNuber {
     public static void main(String[] args) {

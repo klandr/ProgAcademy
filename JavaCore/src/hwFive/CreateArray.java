@@ -1,4 +1,4 @@
-package hwfive;
+package hwFive;
 import java.util.Scanner;
 
 public class CreateArray {
