@@ -1,9 +1,9 @@
 package exception.hwThree.human;
 
 public class Human {
-    String name;
-    String lastName;
-    Gender gender;
+    private String name;
+    private String lastName;
+    private Gender gender;
 
     public Human(String name, String lastName, Gender gender) {
         this.name = name;

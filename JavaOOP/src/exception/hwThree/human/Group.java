@@ -3,15 +3,13 @@ package exception.hwThree.human;
 import java.util.Arrays;
 
 public class Group {
-    String groupName;
-    Student[] students = new Student[10];
+    private String groupName;
+    private final Student[] students;
 
-    public Group(String groupName, Student[] students) {
+    public Group(String groupName) {
+        super();
         this.groupName = groupName;
-        this.students = students;
-    }
-
-    public Group() {
+        students = new Student[10];
     }
 
     public String getGroupName() {
@@ -26,27 +24,53 @@ public class Group {
         return students;
     }
 
-    public void setStudents(Student[] students) {
-        this.students = students;
+    public void addStudent(Student student) throws GroupOverflowException {
+        for (int i = 0; i < students.length; i++) {
+            if (students[i] == null) {
+                students[i] = student;
+                return;
+            }
+        }
+        throw new IllegalAccessError("Students list are full ");
     }
 
-    public void addStudent(Student student) throws GroupOverflowException{
-
+    public Student searchStudentByLastName(String lastName) throws StudentNotFoundException {
+        for (int i = 0; i < students.length; i++) {
+            if (students[i] != null) {
+                if (students[i].getLastName() == lastName) {
+                    return students[i];
+                }
+            }
+        }
+        throw new StudentNotFoundException("Student not found");
     }
-    public Student searchStudentByLastName(String lastName) throws StudentNotFoundException{
 
-        return null;
-    }
-    public boolean removeStudentByID(int id){
-
+    public boolean removeStudentByID(int id) {
+        for (int i = 0; i < students.length; i++) {
+            if (students[i] != null) {
+                if (students[i].getId() == id) {
+                    students[i] = null;
+                    return true;
+                }
+            }
+        }
         return false;
     }
 
-    @Override
-    public String toString() {
+
+    public String toStringDefault() {
         return "Group{" +
                 "groupName='" + groupName + '\'' +
                 ", students=" + Arrays.toString(students) +
                 '}';
+    }
+    @Override
+    public String toString() {
+        String result = "Group name: " + groupName + System.lineSeparator();
+        for (int i = 0; i < students.length; i++) {
+            if (students[i] != null) {
+                result += students[i] + System.lineSeparator();
+            }
+        } return result;
     }
 }

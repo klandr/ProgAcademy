@@ -5,7 +5,7 @@ import java.io.IOException;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
-public class ExceptionMain {
+public class ClassworkMain {
     public static void main(String[] args) {
         File file = new File("price.txt");
         Integer price = null;
