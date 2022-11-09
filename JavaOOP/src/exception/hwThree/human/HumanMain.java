@@ -1,7 +1,5 @@
 package exception.hwThree.human;
 
-import java.util.Arrays;
-
 public class HumanMain {
     public static void main(String[] args) {
         Student student1 = new Student("Maria", "M", Gender.WOMAN, 1, "MathClass");
