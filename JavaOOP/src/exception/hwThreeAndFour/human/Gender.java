@@ -1,4 +1,4 @@
-package exception.hwThree.human;
+package exception.hwThreeAndFour.human;
 public enum Gender {
     MAN,
     WOMAN,
