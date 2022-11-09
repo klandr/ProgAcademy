@@ -1,4 +1,4 @@
-package interfacE.claccwork;
+package interfase.claccwork;
 
 import java.util.Arrays;
 
@@ -19,6 +19,12 @@ public class CatMain {
 
         Arrays.sort(cats, new CatNameComparator());
 
+        for (int i = 0; i< cats.length;i++){
+            System.out.println(cats[i]);
+        }
+        System.out.println();
+
+        Arrays.sort(cats, new CatAgeComparator());
         for (int i = 0; i< cats.length;i++){
             System.out.println(cats[i]);
         }

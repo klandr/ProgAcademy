@@ -1,4 +1,4 @@
-package interfacE.claccwork;
+package interfase.claccwork;
 
 public class Cat {
     private String name;
