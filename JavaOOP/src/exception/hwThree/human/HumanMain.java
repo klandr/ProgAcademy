@@ -24,5 +24,12 @@ public class HumanMain {
         System.out.println(group1.removeStudentByID(3));
         System.out.println();
         System.out.println(group1.sortStudentByLastName());
+
+        try {
+            group1.addStudent(StudentScan.myScan());
+        } catch (GroupOverflowException e) {
+            e.printStackTrace();
+        }
+        System.out.println(group1);
     }
 }
