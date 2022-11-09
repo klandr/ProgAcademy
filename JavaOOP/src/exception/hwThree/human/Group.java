@@ -1,6 +1,5 @@
 package exception.hwThree.human;
 
-import java.util.ArrayList;
 import java.util.Arrays;
 
 public class Group {
@@ -56,6 +55,17 @@ public class Group {
             }
         }
         return false;
+    }
+
+    public String sortStudentByLastName(){
+        for (int i = 0; i < students.length; i++) {
+            if (students[i] != null) {
+                Arrays.sort(students, new StudentNameComparator());
+
+            }
+        }
+
+        return toString();
     }
 
     public String toStringDefault() {
