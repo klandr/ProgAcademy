@@ -1,5 +1,6 @@
 package exception.hwThree.human;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 
 public class Group {
@@ -57,13 +58,13 @@ public class Group {
         return false;
     }
 
-
     public String toStringDefault() {
         return "Group{" +
                 "groupName='" + groupName + '\'' +
                 ", students=" + Arrays.toString(students) +
                 '}';
     }
+
     @Override
     public String toString() {
         String result = "Group name: " + groupName + System.lineSeparator();
@@ -71,6 +72,7 @@ public class Group {
             if (students[i] != null) {
                 result += students[i] + System.lineSeparator();
             }
-        } return result;
+        }
+        return result;
     }
 }

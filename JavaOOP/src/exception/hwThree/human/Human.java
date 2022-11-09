@@ -10,7 +10,8 @@ public class Human {
         this.lastName = lastName;
         this.gender = gender;
     }
-    public Human(){
+
+    public Human() {
     }
 
     public String getName() {

@@ -1,5 +1,6 @@
 package exception.hwThree.human;
 
+
 public class GroupOverflowException extends Exception{
     public GroupOverflowException() {
         super();

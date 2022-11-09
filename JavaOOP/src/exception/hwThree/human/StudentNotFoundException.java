@@ -1,5 +1,6 @@
 package exception.hwThree.human;
 
+
 public class StudentNotFoundException extends Exception{
     public StudentNotFoundException() {
         super();

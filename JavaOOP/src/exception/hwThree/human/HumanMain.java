@@ -22,5 +22,6 @@ public class HumanMain {
             e.printStackTrace();
         }
         System.out.println(group1.removeStudentByID(3));
+        //System.out.println(group1.sortStudentByLastName());
     }
 }

@@ -1,6 +1,6 @@
 package exception.hwThree.human;
 
-public class Student extends Human{
+public class Student extends Human {
     int id;
     String groupName;
 
@@ -31,7 +31,7 @@ public class Student extends Human{
 
     @Override
     public String toString() {
-        return super.toString()+", "+"Student{" +
+        return super.toString() + ", " + "Student{" +
                 "id=" + id +
                 ", groupName='" + groupName + '\'' +
                 '}';
