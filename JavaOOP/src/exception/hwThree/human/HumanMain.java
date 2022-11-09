@@ -2,8 +2,8 @@ package exception.hwThree.human;
 
 public class HumanMain {
     public static void main(String[] args) {
-        Student student1 = new Student("Maria","M",Gender.Woman,1,"MathClass");
-        Student student2 = new Student("Lin","D",Gender.Man,2,"GeographicClass");
+        Student student1 = new Student("Maria","M",Gender.WOMAN,1,"MathClass");
+        Student student2 = new Student("Lin","D",Gender.MAN,2,"GeographicClass");
 
         Group group1 = new Group("Try" );
         System.out.println(group1.toStringDefault());
