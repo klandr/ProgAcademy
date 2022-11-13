@@ -1,5 +1,6 @@
 package exception.hwThreeAndFour.human;
 
+import java.io.*;
 import java.util.Arrays;
 
 public class Group {
@@ -37,7 +38,7 @@ public class Group {
     public Student searchStudentByLastName(String lastName) throws StudentNotFoundException {
         for (int i = 0; i < students.length; i++) {
             if (students[i] != null) {
-                if (students[i].getLastName() == lastName) {
+                if (students[i].getLastName().equals(lastName)) {
                     return students[i];
                 }
             }

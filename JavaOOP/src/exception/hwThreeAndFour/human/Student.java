@@ -1,8 +1,8 @@
 package exception.hwThreeAndFour.human;
 
 public class Student extends Human {
-    int id;
-    String groupName;
+    private int id;
+    private String groupName;
 
     public Student(String name, String lastName, Gender gender, int id, String groupName) {
         super(name, lastName, gender);
