@@ -8,8 +8,6 @@ public class CopyTypeFileMain {
         File folderIn = new File("C:/Users/And/Pictures/");
         File folderOut = new File("C:/Users/And/Pictures/Saved Pictures/");
 
-
-
         try {
             String fileType = "jpg";
             CopyTypeFile.copyMyTipeFiles(folderIn, folderOut, fileType);
