@@ -27,5 +27,6 @@ public class ClassworkMain {
             finally {
             System.out.println("Thank you for using our service");}
         System.out.println(" price = " + price);
+
     }
 }
