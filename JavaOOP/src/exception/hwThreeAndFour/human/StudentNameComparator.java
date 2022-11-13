@@ -11,8 +11,6 @@ public class StudentNameComparator implements Comparator {
         if (student1 != null) {
             String lName1 = student1.getLastName();
             String lName2 = student2.getLastName();
-
-
             if (lName1.compareTo(lName2) > 0) {
                 return 1;
             }

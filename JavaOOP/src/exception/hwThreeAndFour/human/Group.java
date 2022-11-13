@@ -1,6 +1,5 @@
 package exception.hwThreeAndFour.human;
 
-import java.io.*;
 import java.util.Arrays;
 
 public class Group {
