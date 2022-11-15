@@ -1,3 +1,5 @@
+package andersontest;
+
 public class AndersonTest implements Runnable {
     int x = 0, y = 0;
     int addX() {

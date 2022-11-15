@@ -1,3 +1,5 @@
+package andersontest;
+
 public class AndersonTestStringBufer extends Thread {
     final StringBuffer sb1 = new StringBuffer();
     final StringBuffer sb2 = new StringBuffer();
