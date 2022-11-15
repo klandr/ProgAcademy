@@ -1,6 +1,7 @@
 package exception.hwThreeAndFour.human;
 
 import java.util.Arrays;
+import java.util.Comparator;
 
 public class Group {
     private String groupName;
@@ -57,14 +58,8 @@ public class Group {
         return false;
     }
 
-    public String sortStudentByLastName(){
-        for (int i = 0; i < students.length; i++) {
-            if (students[i] != null) {
-                Arrays.sort(students, new StudentNameComparator());
-
-            }
-        }
-
+    public String sortStudentByLastName() {
+        Arrays.sort(students, Comparator.nullsLast(new StudentNameComparator()));
         return toString();
     }
 
