@@ -8,7 +8,7 @@ public class HomeworkMain {
 
         FactorialTask[] arrayFactorial = new FactorialTask[100];
         for (int i = 0; i < arrayFactorial.length; i++) {
-            arrayFactorial[i] = new FactorialTask(10);
+            arrayFactorial[i] = new FactorialTask(i);
             thread = new Thread(arrayFactorial[i]);
             thread.start();
         }
