@@ -1,7 +1,6 @@
 package ioStreams.classwork;
 
 import java.math.BigInteger;
-
 public class FactorialTask implements Runnable {
     private int n;
     private BigInteger factorialSumm = BigInteger.ZERO;
