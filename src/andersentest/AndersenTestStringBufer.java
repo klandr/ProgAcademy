@@ -1,11 +1,11 @@
-package andersontest;
+package andersentest;
 
-public class AndersonTestStringBufer extends Thread {
+public class AndersenTestStringBufer extends Thread {
     final StringBuffer sb1 = new StringBuffer();
     final StringBuffer sb2 = new StringBuffer();
 
     public static void main(String[] args) {
-        final AndersonTestStringBufer h = new AndersonTestStringBufer();
+        final AndersenTestStringBufer h = new AndersenTestStringBufer();
 
         new Thread(){
             public void run(){

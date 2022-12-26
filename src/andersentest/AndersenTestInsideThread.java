@@ -1,10 +1,10 @@
-package andersontest;
+package andersentest;
 
-public class AndersonTestInsideThread extends Thread {
-    AndersonTestInsideThread() {
+public class AndersenTestInsideThread extends Thread {
+    AndersenTestInsideThread() {
     }
 
-    AndersonTestInsideThread(Runnable r) {
+    AndersenTestInsideThread(Runnable r) {
         super();
     }
 
@@ -21,8 +21,8 @@ public class AndersonTestInsideThread extends Thread {
 
 class ThreadDemo{
     public static void main(String[] args) {
-        new AndersonTestInsideThread().start();
-        new AndersonTestInsideThread(new RunableDemo()).start();
+        new AndersenTestInsideThread().start();
+        new AndersenTestInsideThread(new RunableDemo()).start();
     }
 }
 
